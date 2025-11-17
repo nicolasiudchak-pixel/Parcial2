@@ -73,5 +73,6 @@ header nav ul li a:hover {
     justify-content: center;
 }
 main{
-    margin-bottom: 19%;
+    min-height: 100vh;
+
 }
