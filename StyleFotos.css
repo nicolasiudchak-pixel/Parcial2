@@ -1,0 +1,27 @@
+#imagenPortada {
+    text-align: center;
+}
+
+#logoUniversal {
+    margin-left: 25%;
+    width: 50%;
+}
+
+
+#logoUniversal img {
+    width: 100%;
+    height: auto;
+}
+
+.Datos{
+    display: inline-block; 
+
+    margin-left: 100px; 
+    margin-right: 100px;
+
+    margin-top: 10px;
+}
+
+
+
+

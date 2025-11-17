@@ -1,0 +1,21 @@
+.lista-redes {
+    padding: 0;
+    list-style-type: none;     
+    text-align: center;      
+}
+
+.lista-redes li {
+    display: inline-block;      
+    margin: 0 15px;            
+}
+
+.lista-redes li a {
+    color: #fff;                
+    text-decoration: none;    
+    font-weight: bold;
+}
+
+.lista-redes li a:hover {
+    color: #9b0e0e;            
+    text-decoration: underline; 
+}

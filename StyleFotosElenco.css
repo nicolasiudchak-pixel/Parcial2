@@ -1,0 +1,50 @@
+
+.elenco-grid {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+
+.NombreReparto article {
+
+    display: flex;
+    gap: 15px;
+    background-color: #222;
+    padding: 15px;
+    border: 1px solid #9b0e0e;
+    height: 100%;
+}
+
+
+.NombreReparto figure {
+    width: 40%;
+    margin: 0;
+}
+
+
+.info-personaje {
+    flex-grow: 1;
+}
+
+
+
+.NombreReparto h2 {
+    color: red; 
+    margin-bottom: 15px;
+    text-align: center; 
+    margin-top: 0;
+}
+.FotoReparto {
+    width: 400px;
+    height: 400px;
+}
+
+.info-personaje p {
+text-align: left;
+ margin-left: 30px;
+margin-right: 0;
+}

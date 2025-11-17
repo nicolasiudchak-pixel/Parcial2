@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="StyleFormulario.css">
+    <link rel="stylesheet" href="StyleRedes.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Rapidos y Furiosos</a></li>
+                <li><a href="Sobre la Serie.html">Sobre la Serie</a></li>
+                <li><a href="Elenco y Personajes.html">Elenco y Personajes</a></li>
+                <li><a href="Estudio y Equipo.html">Estudio y Equipo</a></li>
+                <li><a href="Curiosidades y Premios.html">Curiosidades y Premios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulario</h1>
+         <section class="formulario-contacto">
+            <h2>Envíanos un mensaje</h2>
+            <p>Completa el formulario según tus necesidades.</p>
+            
+            <form action="FormularioEnviado.html" method="GET">
+                
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Dominic" required autocomplete="given-name">
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ej: Toretto" required autocomplete="family-name">
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required autocomplete="email">
+
+                    <label for="telefono">Teléfono (opcional):</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+54 11 1234 5678" autocomplete="tel">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu Mensaje</legend>
+
+                    <label for="motivo">Motivo de contacto:</label>
+                    <select id="motivo" name="motivo" required>
+                        <option value="" disabled selected>Selecciona una opción...</option>
+                        <option value="sugerencia">Sugerencia sobre la web</option>
+                        <option value="error">Reportar un error</option>
+                        <option value="comentario">Comentario general</option>
+                    </select>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </fieldset>
+                
+                <section class="botones">
+                    <button type="submit">Enviar Mensaje</button>
+                    <input type="reset" value="Limpiar Formulario" class="btn-reset">
+                </section>
+                
+            </form>
+        </section>
+        
+        <section>
+            <h2>Enlaces Oficiales</h2>
+            <ul class="lista-redes">
+            <ul> 
+                <li><a href="https://www.youtube.com/watch?v=Skpu5HaVkOc" target="_blank">Tráiler Oficial</a></li>
+                <li><a href="https://www.universalpictures.com/" target="_blank">Universal Pictures</a></li>
+                <li><a href="https://www.facebook.com/FastFurious/" target="_blank">Facebook Oficial</a></li>
+                <li><a href="https://twitter.com/fastandfurious" target="_blank">Twitter Oficial</a></li>
+            </ul>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p>© 2025 Fans de Rápidos y Furiosos. Sitio no oficial.</p>
+    </footer>
+</body>
+</html>
